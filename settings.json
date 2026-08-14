@@ -58,14 +58,14 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
-    "console-commands": true
+    "console-commands": false
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false,
   },
   "beds": {
     "pick-up-day": false,
@@ -73,7 +73,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "https://discord.com/api/webhooks/1537754389303791646/UH0dGs_o2ITHN8v4i08PO_T7YYYhxDU52lfIeLMB1kTuC36fLLvAUiwV-VEzhMc44Lp5",
     "events": {
       "connect": true,
       "disconnect": true,
